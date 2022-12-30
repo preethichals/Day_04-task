@@ -40,3 +40,5 @@ class person {
 }
 let person1 = new person("Guvi", "Geek", "10", "Chennai");
 let person2 = new person("John", "Joseph", "24", "Bangalore");
+
+console.log(person1.getDetails());
