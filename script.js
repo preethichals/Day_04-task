@@ -25,4 +25,18 @@ for(var i=0;i<result.length;i++){
 }
 
 }
+// Objects
 
+class person {
+    constructor(firstName, lastName, age, place){
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.age = age;
+        this.place = place;
+    }
+    getDetails(){
+        return(`the name of the person is ${this.firstName} ${this.lastName} with age ${this.age} born at ${this.place})`);
+    }
+}
+let person1 = new person("Guvi", "Geek", "10", "Chennai");
+let person2 = new person("John", "Joseph", "24", "Bangalore");
